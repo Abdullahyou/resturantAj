@@ -1,0 +1,581 @@
+/*.ABD {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px
+}
+.visible {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px
+}
+
+.mProd {
+    margin-bottom: 15px
+}
+.mydiv
+{
+    height: 2000px;
+    line-height: 200px;
+    background: #EEE
+ 
+      
+}*/
+body {
+    padding-top: 70px;
+    overflow-x: hidden
+}
+h1, h2, h3, h4, p{
+    font-family: droid
+}
+::selection
+{
+    color: white;
+    background: red
+}
+/*start carousal*/
+
+/*start carousal*/
+
+/*start option box*/
+
+/*
+.option-box
+{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: left;
+    background:#333;
+    color: #FFF;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #F00;
+    display: none
+}
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    background-color: #F00;
+    float: left;
+    margin-right: 3px;
+    
+}
+.option-box i
+{
+    background: red;
+    color: #FFF;
+    padding: 7px
+}*/
+/*end option box*/
+
+/*navbar*/
+.navbar
+{
+    min-height: 70px;
+    
+}
+
+
+/*Active color*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color: red
+}
+
+/* link color */
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px
+}
+
+.navbar-inverse .navbar-brand 
+{
+    color: #BBB;
+    font-size: 30px;
+    line-height: 36px;
+}
+.navbar-inverse .navbar-brand span
+{
+    color: red;
+    font-size: 22px
+}
+
+.dropdown-menu 
+{
+    background-color: black;
+    min-width: 200px
+}
+
+.dropdown-menu > li > a
+{
+    color: #FFF;
+    padding: 6px 20px;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    -transition:padding 0.5s ease;
+    
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    background-color: red;
+    padding-left: 40px
+}
+
+.dropdown-menu .divider 
+{
+    background-color: #8d2727;
+}
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+.navbar-toggle
+{
+    margin-top: 18px
+}
+
+/**/
+.carousel-caption /*heading and para*/
+{
+    bottom: 100px;
+    background: rgba(0,0,0,0.5);
+}
+.carousel-inner > .item > img /* to make the slider image full screen*/
+{
+    width: 100%;
+     -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    text-align: center;
+}
+.carousel-indicators
+{
+ bottom: 0px   
+}
+
+.carousel-indicators li /*the balls at the bottom */
+{
+    height: 15px;
+    width: 15px; 
+}
+.carousel-indicators .active
+{
+     height: 17px;
+     width: 17px;
+    background-color: red;
+}
+/* strat our services*/
+.about
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about .lead
+{
+font-size: 20px;
+color: gray
+}
+/* End our services*/
+
+
+/*Start select feature*/
+.features
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #efefef;
+    
+}
+.features h1
+{
+    margin-bottom: 45px
+}
+.features .feat
+{
+    padding-bottom: 20px
+}
+.features .feat span
+{
+    font-size: 25px;
+    margin-bottom: 12px
+}
+
+/*End select feature*/
+
+/*start booking table*/
+
+.booking-table
+{
+    background: url(../images/table.png) no-repeat center scroll;
+    min-height:300px;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    text-align: center;
+    position: relative
+   
+    
+}
+.booking-table .book-but
+{
+    padding-top: 200px;
+}
+.booking-table .book
+{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 8px 65px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    border-radius: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    position: absolute; 
+    bottom: 63px;
+    left: 633px;
+    
+    
+}
+/*end booking table*/
+
+/*start testimonials*/
+.testimonials
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.testimonials h1
+{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.testimonials .lead
+{
+    line-height: 2em;
+    font-size: 18px
+}
+.testimonials .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px
+}
+
+.testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    height: 80px;
+    width: 80px;
+    border: 3px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0.5;
+    margin-right: 7px;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -transition:all 0.5s ease;
+
+}
+
+.testimonials .carousel-indicators .active
+{
+    height: 80px;
+    width: 80px;
+    opacity: 1;
+    background: none
+}
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+    height: 80px;
+    width: 80px;
+}
+
+.testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.testimonials .carousel-inner
+{
+    min-height: 160px
+}
+/*start testimonials*/
+
+
+/*start Prices*/
+.prices
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.prices .price-box
+{
+    background-color: #EEE;
+    border: 3px solid #ebebeb;
+    padding: 10px;
+    border-radius: 12%;
+    margin-bottom: 10px;
+}
+
+.prices h1
+{
+    font-weight: bold;
+    margin-bottom: 25px
+}
+.prices .price-box h2
+{
+  font-family: fantasy
+}
+
+.prices .price-box p
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #666;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    line-height: 100px;
+    -webkit-transition-duration:0.2s;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+    transition-duration: 0.7s;
+}
+
+.prices .price-box:hover p
+{
+    -webkit-transform:scale(1.2,1.2) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.2,1.1) rotate(360deg);
+    transform:scale(1.2,1.2) rotate(360deg);
+    border: 2px solid red;
+    background-color: red;
+    color: white
+    
+}
+
+.prices .price-box ul
+{
+    line-height: 250%
+}
+
+.prices .price-box a
+{
+    margin-bottom: 13px;
+    border: 1px solid #FFF;
+    background-color: red
+}
+/*End Prices*/
+
+/*start our team*/
+.our-team
+{
+
+    background: url(../images/cooks.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 600px;
+    height: auto;
+    width: 100%
+    
+}
+.our-team .team
+{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background:rgba(41, 25, 25, 0.71);
+    color: white;
+    min-height: 600px;
+}
+.our-team .team h1
+{
+    margin-bottom: 60px;
+    font-weight: bold
+}
+.our-team .person
+{
+    margin-bottom: 40px
+}
+.our-team .team h3
+{
+    color: red
+}
+.our-team .team p
+{   
+    line-height: 1.5em;
+    font-weight:
+}
+/*End our team*/
+
+/*Start Subscribe*/
+.subscribe
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #433737;
+    color: darkgrey;
+    
+}
+.subscribe h1
+{
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-bottom: 30px
+}
+.subscribe p
+{
+    margin-bottom: 30px
+}
+/*Start our Skills*/
+/*
+.our-skills
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #a02a2a;
+    
+}
+.our-skills h1
+{
+    margin-bottom: 30px
+}
+.our-skills h2
+{
+    margin-top: 0;
+    font-weight: bold
+}
+
+.our-skills .progress
+{
+    height: 36px
+}
+.our-skills .progress-bar
+{
+    line-height: 36px;
+    font-size: 16px;
+    text-align:left;
+    text-indent: 10px
+}
+*/
+/*End our Skills*/
+
+/*strat contact us*/
+
+.contact-us
+{
+     background: url(../images/call.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 300px;
+    
+}
+.contact-us .field
+{
+    background:rgba(41, 25, 25, 0.85);
+    min-height: 300px;
+    color: #beadad;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.contact-us i {color:#a02a2a}
+.contact-us .field h1{margin-bottom: 15px}
+
+.contact-us .field p {margin-bottom: 30px}
+.contact-us .form-group textarea{ height: 106px}
+
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background: rgba(82,78,78,0.85);
+    color: #FFF;
+    border: none
+}
+/*strat contact us*/
+
+/* Start footer*/
+.footer
+{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    background: #101010;
+    color: #717171;
+}
+.footer h3
+{
+    color:red;
+    margin: 20px 0;
+    letter-spacing: 2px
+}
+.footer .tow-columns
+{
+    overflow: hidden;
+}
+
+.footer .tow-columns li
+{
+    width:50%;
+    float: left;
+    margin-bottom: 10px
+}
+.footer .social-media
+{   
+    float: left;
+    width: 100%;
+    padding-left: 30px    
+}
+.footer .social-media i
+{
+    margin-right: 2px;
+    opacity: 0.4;
+    -webkit-transition: 0.7 ease;
+    -o-transition: 0.7s ease;
+    -moz-transition: 0.7 ease;
+    transition: 0.7s ease;
+}
+.footer .social-media i:hover
+{
+    opacity: 1
+}
+.footer .img-thumbnail
+{
+    background: rgba(0,0,0,0.4);
+    border: 1px solid #444;
+    margin-bottom: 4px  
+}
+.footer .copyright
+{
+    background: #262626;
+    color: #717171;
+    padding: 10px 0;
+    font-size: 18px
+}
+.footer .copyright span{color: red}
+
+/*End footer*/

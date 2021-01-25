@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <!--for compatipitlity with IE -->
+        <meta http-equiv="X-UA-compatiple" content="IE=edge">
+        <!--first mobile meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap project</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/all.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/media.css"/>
+        
+        <!--html5shiv from code.google.com download and copy (html5shiv.min.js) to make the IE 9 responsive with HTML5-->
+        <script src="js/html5shiv.min.js"></script>
+        <!--fo media query for IE -->
+        <script src="js/respond.min.js"></script>
+    </head>
+    <body>
+        <!-- this code upon bootsrtap 4.5.1-->
+<!--
+        <div class="container">
+            <div class="row">
+-->
+
+<!-- strat of comment
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="ABD">
+                        product#1
+                    </div>
+                </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#2
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#3
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#4
+                        </div>
+                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="ABD">
+                        product#5
+                    </div>
+                </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#6
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#7
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                            this is a very long div
+                        </div>
+                    </div>
+                
+                    <div class="clearfix d-none d-sm-block d-md-none"></div>
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#8
+                        </div>
+                    </div>
+                
+                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#8
+                        </div>
+                    </div>
+                
+                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#8
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="ABD">
+                            product#8
+                        </div>
+                    </div>
+                
+                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-md-none d-lg-block">
+                        <div class="ABD">
+                            this div will hidden in meduim screen
+                        </div>
+<div class="col-xs-12">
+                    <div>
+                        product#1
+                    </div>
+                </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-none d-sm-block d-md-none">
+                        <div class="ABD visible">
+                            this div will appear only on small screen
+                        </div>
+                    </div>
+end of comment-->
+                <!--session 8 : offset -->
+
+        <!-- start comment
+              <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 offset-md-4">
+                  <div class="ABD">
+                    product#1
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 offset-lg-2">
+                  <div class="ABD">
+                    product#2
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="ABD">
+                    product#3
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="ABD">
+                    product#4
+                  </div>
+                </div>
+                
+                <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                  <div class="ABD">
+                    product#5
+                  </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 offset-lg-4">
+                  <div class="ABD">
+                    product#7
+                  </div>
+                </div>
+                
+                <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12">
+                  <div class="ABD">
+                    product#8
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="ABD">
+                    product#9
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="ABD">
+                    product#10
+                  </div>
+                </div>
+end-->
+                <!--session 9: order column -->
+<!--                
+                <div class="col-lg-3 order-lg-2">
+                    <div class="ABD">
+                        product#1
+                    </div>
+                </div>
+                
+                <div class="col-md-8 order-lg-1">
+                    <div class="ABD">
+                        product#2
+                    </div>
+                </div>    
+                
+                
+                <div class="col-md-3 order-lg-5">
+                    <div class="ABD">
+                        product#3
+                    </div>
+                </div>    
+                
+                <div class="col-md-3 order-lg-6">
+                    <div class="ABD">
+                        product#4
+                    </div>
+                </div>
+                
+                <div class="col-md-6 order-lg-4">
+                    <div class="ABD">
+                        product#5
+                    </div>
+                </div>
+                
+                <div class="col-md-3 order-lg-3  ">
+                    <div class="ABD">
+                        product#6
+                    </div>
+                </div>
+-->
+<!--
+                <div class="col-lg-12 mProd">
+                    <div class="row">
+                        <div class="col-lg-2 col-xs-12">
+                            <img class="img-fluid" src="images/04.jpg" alt="MOblie">
+                        </div>
+                        <div class="col-lg-10 col-xs-12">
+                            <h1>this is my main product</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ABD">
+                        product#1
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="ABD">
+                        product#1
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="ABD">
+                        product#1
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="ABD">
+                        product#1
+                    </div>
+                </div>
+    
+--> 
+<!--
+            </div>    
+        </div>   
+-->
+        <!--juery library : bootstrap can't working without it  -->
+        <!-- bootstrap 3.3.7 -->
+<!-- start option box        
+        <section class="option-box">
+            <div class="color-option">
+                <h4>color option</h4>
+                <ul class="list-unstyled">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <i class="fas fa-cog fa-3x gear-check"></i>
+        </section>
+End Option box-->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container"> 
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">AJ<span>.Rest&Cafe</span></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Menu <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">ٌThe Main Meals</a></li>
+                    <li><a href="#">Appetizers</a></li>
+                    <li><a href="#">our Meals</a></li>
+                    <li><a href="#">Sweetener</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Sandwiches</a></li>
+
+                  </ul>
+                </li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+        <!-- Start carousal-->
+        
+     <div id="myslide" class="carousel slide" data-ride="carousel">
+          
+          <ol class="carousel-indicators hidden-xs">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+          </ol>
+
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/slider/25.jpg" alt="pic 1">
+              <div class="carousel-caption hidden-xs">
+                <h1>Fast Foods</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/slider/26.jpg" alt="pic 2">
+              <div class="carousel-caption hidden-xs">
+                <h1>pizza</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis.</p>
+              </div>
+            </div>
+              <div class="item">
+              <img src="images/slider/29.jpg" alt="pic 3">
+              <div class="carousel-caption hidden-xs">
+                <h1>Candy</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis.</p>
+              </div>
+            </div>
+              <div class="item">
+              <img src="images/slider/20.jpg" alt="pic 4">
+              <div class="carousel-caption hidden-xs">
+                <h1>Salad</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis.</p>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    <!--End carousal-->
+        
+        <!--Start section-->
+        <section class="about text-center">
+           <div class="container"><!--we will not use the row class beacuse it makes a negative padding we use it only when we have a grid system because it modify the negative padding by positive padding -->
+            <h1 class="hidden-xs">these are our services</h1>
+            <h3 class="visible-xs">these are our services</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc <strong>mattis</strong> enim ut tellus elementum sagittis.</p>
+           </div>  
+        </section>
+<!--End section-->
+        
+<!--start section features-->
+        <section class="features">
+            <div class="container text-center">
+                <h1>Our Features</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feat">
+                            <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                            <h3>Our Price</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc  enim ut tellus elementum.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feat">
+                            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                            <h3>Login</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc  enim ut tellus elementum .</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feat">
+                            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                            <h3>Location</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc  enim ut tellus elementum.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feat">
+                            <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+                            <h3>Certified</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc  enim ut tellus elementum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--End section features-->
+<!--start book a table-->
+        <section class="booking-table">
+            
+            <div class="container">
+                <div class="book-but">
+                    <button class="book text-center">Book a Table</button>
+                </div>
+            </div>
+        </section>
+<!-- End book a table-->
+        
+<!--Start testimonials section-->    
+        <section class="testimonials text-center">
+            <h1>What Our client Say</h1>
+            <!--Start testimonials carousal container-->
+            <div class="container">
+                    <!-- Start testimonials carousal-->
+
+                 <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+                      
+                     
+
+               <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis</p>
+                            <span>George</span>
+                        </div>
+                        <div class="item">
+                              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis</p>
+                              <span>Angela</span>
+                        </div>
+                          <div class="item">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis</p>
+                                <span>Sam</span>    
+                        </div>
+                          <div class="item">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis</p>
+                                <span>Eva</span>
+                        </div>
+                      </div>
+                     
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                            <img src="images/clients/client1.jpg" alt="client1"/>
+                        </li>
+                        <li data-target="#carousel-testimonials" data-slide-to="1">
+                            <img src="images/clients/client2.jpg" alt="client2"/>
+                        </li>
+                        <li data-target="#carousel-testimonials" data-slide-to="2">
+                            <img src="images/clients/client3.jpg" alt="client3"/>
+                        </li>
+                        <li data-target="#carousel-testimonials" data-slide-to="3">
+                            <img src="images/clients/client4.jpg" alt="client4"/>
+                        </li>
+                      </ol>
+                    </div>
+                    <!--End testimonials carousal -->
+                
+            </div>
+            <!--End testimonials carousal container-->
+        </section>
+<!--End testimonials section-->   
+
+<!--Start prices-->
+        <section class="prices">
+            <div class="container text-center">
+                <h1>Our Prices</h1>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="price-box">
+                            <h2>Fast Foods</h2>
+                            <p class="center-block">$2</p>
+                            <ul class="list-unstyled">
+                                <li>Crispy shell taco</li>
+                                <li>Ground beef or steak</li>
+                                <li>Crunch wraps or gordita-type burritos</li>
+                                <li>Beef or steak burrito</li>
+                                <li>Veggie and bean burritos</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="price-box">
+                            <h2>Salad</h2>
+                            <p class="center-block">$1</p>
+                            <ul class="list-unstyled">
+                                <li>Shredded Brussels Sprout Salad</li>
+                                <li>Pasta Salad</li>
+                                <li>Rainbow Orzo Salad</li>
+                                <li>Broccoli Pasta Salad</li>
+                                <li>Cherry Tomato Couscous Salad</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="price-box">
+                            <h2>Soup</h2>
+                            <p class="center-block">$0.8</p>
+                            <ul class="list-unstyled">
+                                <li>French Onion Soup</li>
+                                <li>Country Fish Chowder</li>
+                                <li>Creamy Chicken Rice Soup</li>
+                                <li>Potato Soup</li>
+                                <li>Beef Lentil Soup</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="price-box">
+                            <h2>Sweets</h2>
+                            <p class="center-block">$1.25</p>
+                            <ul class="list-unstyled">
+                                <li>Peach Cobbler</li>
+                                <li>Chocolate Covered Strawberries</li>
+                                <li>Mexican Wedding Cookies</li>
+                                <li>Peach Crisp</li>
+                                <li>Apple Oatmeal Cookies</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+<!--End prices-->
+        
+<!-- Start our team-->
+        <section class="our-team text-center">
+            <div class="team">
+                <div class="co ntainer">
+                    <h1>We Have a Top Chef</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/chefs/chief1.jpg" alt="chef1">
+                                <h3>Carla</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/chefs/chief2.jpg" alt="chef1">
+                                <h3>Jack</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/chefs/chief3.jpg" alt="chef1">
+                                <h3>Wiliam</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/chefs/chief4.jpeg" alt="chef1">
+                                <h3>Roger</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>   
+                </div>    
+            </div>
+        </section>
+<!--End our team-->  
+        
+<!-- Start subscribe-->
+        <section class="subscribe text-center">
+            <div class="container">
+                <h1>Keep In Touch</h1>
+                <p class="lead">we care about your opinions and that is what made us the best, don't be hisitate to write what in your mind</p>
+                <form class="form-inline">
+                    <input class="form-control input-lg" type="text" placeholder="write your comment">
+                    <input class="btn btn-danger btn-lg" type="submit">
+                </form>
+            </div>
+        </section>
+<!--Start subscribe-->
+<!-- End subscribe-->
+        
+<!-- Start our skills--
+        <section class="our-skills">
+            <div class="container">
+                <h1 class="text-center">Our Skills</h1>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="skill-progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                    fast
+                                </div>
+                            </div>
+                             <div class="progress">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70"aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    clean
+                                </div>
+                            </div>
+                             <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                    Precision
+                                </div>
+                            </div>
+                             <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95"aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                   Secure
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="skill-info">
+                            <h2>Skill Info</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+End our skills-->  
+        
+<!-- Start contact us-->
+        <section class="contact-us text-center">
+            <div class="field">
+                <div class="container">
+                    <div class="row">
+                    <i class="fas fa-phone spinner fa-4x"></i>
+                    <h1>Contact Us</h1>
+                    <p class="lead">Feel Free to Contact Us Anytime</p>
+                        <form role="form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="phone number">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control input-lg" placeholder="your massage"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-danger btn-lg btn-block">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                
+                    </div>
+                </div>
+            </div>
+                
+        </section>
+<!-- End contact us-->
+
+<!-- Start footer-->
+      <section class="footer">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled tow-columns">
+                        <li>Home</li>
+                        <li>Menu</li>
+                        <li>services</li>
+                        <li>About us</li>
+                        <li>Our Prices</li>
+                        <li>Contact us</li>
+                    </ul>
+                    <div class="social-media">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                        <i class="fab fa-google-plus-square fa-2x"></i>
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Updated Menu</h3>
+                    <div class="media">
+                        <div class="media-left">
+                            <a class="pull-left" href="#">
+                                <img src="images/03.jpg" alt="foods" style="width: 50px;height: 50px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                main-meals
+                            </h4>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a class="pull-left" href="#">
+                                <img src="images/27.jpg" alt="drinks" style="width: 50px;height: 50px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                Our Drinks
+                            </h4>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4">
+                    <h3>Our faviorate </h3>
+                    <img class="img-thumbnail" src="images/faviorate/01.jpg" alt="Fish">
+                    <img class="img-thumbnail" src="images/faviorate/02.jpg" alt="cooked checken">
+                    <img class="img-thumbnail" src="images/faviorate/03.jpg" alt="Pasta">
+                    <img class="img-thumbnail" src="images/faviorate/04.jpg" alt="Stake">
+                </div>
+            </div>
+          </div>
+          <div class="copyright text-center">
+            Copyright &copy;2014 A&J<span>.Rest&cafe</span>
+          </div>
+      </section>  
+<!-- End footer-->
+        
+        <script src="js/jquery-1.11.3.main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
